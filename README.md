@@ -59,3 +59,11 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
   1. Type abbreviation as 'div>p#foo$*3>a' and type |<C-Y>,|.
+* [**nerdtree**]
+  1. :NERDTree - open nerdtree
+    - i: Open the selected file in a horizontal split window
+    - s: Open the selected file in a vertical split window
+    - I: Toggle hidden files
+    - R: Refresh the tree, useful if files change outside of Vim
+    - ?: Toggle NERD Tree's quick help
+  2. vim [directory] - open nerdtree

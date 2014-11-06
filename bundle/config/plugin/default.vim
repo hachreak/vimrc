@@ -27,3 +27,13 @@ set hlsearch
 set directory=/tmp
 " Save backup~ files in /tmp
 set backupdir=/tmp
+" map tabnew
+imap <C-t> <Esc>:tabnew<CR>
+nmap <C-t> :tabnew<CR>
+" map tabclose
+imap <C-q> <Esc>:tabclose<CR>
+nmap <C-q> :tabclose<CR>
+" copy to end of line using Y
+nmap Y y$
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! %!sudo tee > /dev/null %

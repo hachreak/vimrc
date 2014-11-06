@@ -22,6 +22,23 @@ The script backup your .vimrc and .vim and then install the
 configuration in your environment.
 
 
+Extra Installation
+------------------
+
+To be able to use the module *tagbar*, you need to install *exuberant*.
+
+With apt-get:
+
+```bash
+sudo apt-get install exuberant-ctags
+```
+
+With yum:
+
+```bash
+sudo yum install ctags-etags
+```
+
 Extend configurations
 ---------------------
 
@@ -43,10 +60,19 @@ Plugin list and shortcuts
 
 I recommend reading the docs of these plugins to understand them better!
 
+* [**default**] General shortcut
+  1. <c-t> - Open new tab
+  2. <c-q> - Close tab
+  3. >> - Increase identation
+  4. << - Decrease identation
+  5. Y - copy to end of line
+  6. :w!! - Allow saving of files as sudo when I forgot to start vim using sudo
 * [**ctrlp.vim**] Finder for Vim
   1. <c-p> - invoke CtrlP in find file mode
   2. <c-left/right arrow> - to navigate the result list.
   3. <c-t> or <c-v> (vertical), <c-x>, <c-o>  - to open the selected entry in a new tab or in a new split.
+  4. <c-down arrow> - See all files
+  5. <c-p> => filename:25 - to open file at line 25
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
   1. \b - add breakpoint
@@ -55,6 +81,7 @@ I recommend reading the docs of these plugins to understand them better!
   4. <c-c>g - open definition
   5. [[ - Jump to previous class or function (normal, visual, operator modes)
   6. ]] - Jump to next class or function (normal, visual, operator modes)
+  7. zz - Toggle fonding
 * [**vim-pathogen**] It makes it super easy to install plugins.
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
@@ -67,3 +94,16 @@ I recommend reading the docs of these plugins to understand them better!
     - R: Refresh the tree, useful if files change outside of Vim
     - ?: Toggle NERD Tree's quick help
   2. vim [directory] - open nerdtree
+  3. nt - toggle nerdtree
+* [**CmdlineComplete**] complete command-line (: / etc.) from the current file
+ 1. Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
+* [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
+  1. \cc - comment line
+  2. [num]\cc - comment [num] lines
+  3. \c<space> - toggle comment
+* [**snipmate.vim**] It aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
+  1. Example: for<tab>
+* [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
+  1. tt - Enable tagbar
+* [**mru**] Most Recently Used (MRU) Vim Plugin
+  1. mr - Open list of recent files opened

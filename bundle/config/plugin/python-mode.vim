@@ -24,3 +24,6 @@ let g:pymode_rope_rename_bind = '<C-c>rr'
 let g:pymode_rope_organize_imports_bind = '<C-c>ro'
 " Rope - autoimport with <C-c>ra
 let g:pymode_rope_autoimport_bind = '<C-c>ra'
+" Remap toggle folding: use zz instead za
+nnoremap zz za
+

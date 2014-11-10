@@ -24,3 +24,14 @@ for bundle in `ls $DIR/bundle/`; do
   echo "[Link] bundle $bundle"
   ln -sf $DIR/bundle/$bundle ~/.vim/bundle
 done
+
+# Add git alias in .bashrc configuration
+if [ -n "`grep "Enable hachreak vim alias" ~/.bashrc`" ]; then
+  echo "[Warning] Vim alias already installed in ~/.bashrc"
+else
+  echo "Install vim alias"
+  echo "# Enable hachreak vim alias" >> ~/.bashrc
+  echo "if [ -f $DIR/vim_alias ]; then" >> ~/.bashrc
+  echo "  . $DIR/vim_alias" >> ~/.bashrc
+  echo "fi" >> ~/.bashrc
+fi

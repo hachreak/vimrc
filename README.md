@@ -60,6 +60,8 @@ Plugin list and shortcuts
 
 I recommend reading the docs of these plugins to understand them better!
 
+* [**console**] Console shortcuts
+  1. v - open vim
 * [**default**] General shortcut
   1. <c-t> - Open new tab
   2. <c-q> - Close tab

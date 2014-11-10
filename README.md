@@ -67,6 +67,7 @@ I recommend reading the docs of these plugins to understand them better!
   4. << - Decrease identation
   5. Y - copy to end of line
   6. :w!! - Allow saving of files as sudo when I forgot to start vim using sudo
+  7. <Leader> is configured as \
 * [**ctrlp.vim**] Finder for Vim
   1. <c-p> - invoke CtrlP in find file mode
   2. <c-left/right arrow> - to navigate the result list.
@@ -107,3 +108,7 @@ I recommend reading the docs of these plugins to understand them better!
   1. tt - Enable tagbar
 * [**mru**] Most Recently Used (MRU) Vim Plugin
   1. mr - Open list of recent files opened
+* [**gundo.vim**] Graph your Vim undo tree in style.
+  1. <Leader>u - Toggle gundo interface.
+  2. <CR> on a state - it will revert the contents.
+  3. *p* on a state - preview window show the diff between your current state and the selected state.

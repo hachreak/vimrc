@@ -70,6 +70,8 @@ I recommend reading the docs of these plugins to understand them better!
   5. Y - copy to end of line
   6. :w!! - Allow saving of files as sudo when I forgot to start vim using sudo
   7. <Leader> is configured as \
+  8. = - will correct alignment of code
+  9. <c-v>  - selects columns
 * [**ctrlp.vim**] Finder for Vim
   1. <c-p> - invoke CtrlP in find file mode
   2. <c-left/right arrow> - to navigate the result list.

@@ -115,3 +115,4 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>u` - Toggle gundo interface.
   - `<CR>` on a state - it will revert the contents.
   - `p` on a state - preview window show the diff between your current state and the selected state.
+* [**vim-phpqa**] PHP QA tools for Vim

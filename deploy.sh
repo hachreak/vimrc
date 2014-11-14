@@ -4,10 +4,11 @@ DIR=`pwd`
 
 # Backup vim configuration
 BCK=$HOME/.vim.backup
-[ -e "$BCK" ] && echo "[Error] Backup directory already exists!" && exit 1
+[ -e "$BCK" ] && echo "[Backup] Backup directory already exists!"
 [ ! -e "$BCK" ] && echo "[Backup] Start backup old vim environment." && mkdir $BCK
 #[ -e "$HOME/.vim" ] && echo "[Backup] backup ~/.vim" && mv ~/.vim $BCK/
-[ -e "$HOME/.vimrc" ] && echo "[Backup] backup ~/.vimrc" && mv ~/.vimrc $BCK/
+# backup only the first time
+[ ! -e "$BCK" ] && [ -e "$HOME/.vimrc" ] && echo "[Backup] backup ~/.vimrc" && mv ~/.vimrc $BCK/
 
 # Checkout plugins
 git submodule init

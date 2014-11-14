@@ -39,6 +39,11 @@ With yum:
 sudo yum install ctags-etags
 ```
 
+To use *Copy/Paste* functionality, Vim should be compiled with support for the +clipboard.
+To know if is enabled, try: `vim --version|grep clipboard`.
+
+If it's not enabled, you can install `vim-gtk`.
+
 Extend configurations
 ---------------------
 
@@ -71,7 +76,10 @@ I recommend reading the docs of these plugins to understand them better!
   - `:w!!` - Allow saving of files as sudo when I forgot to start vim using sudo
   - `<Leader>` is configured as \
   - `=` - will correct alignment of code
-  - `<c-v>`  - selects columns
+  - `<c-v>` (visual mode) - selects columns
+  - `<c-x>` (insert mode) - cut selected text ( support the clipboard)
+  - `<c-c>` (insert mode) - copy selected text ( support the clipboard)
+  - `<c-v>` (insert mode) - paste selected text ( support the clipboard)
 * [**ctrlp.vim**] Finder for Vim
   - `<c-p>` - invoke CtrlP in find file mode
   - `<c-left/right arrow>` - to navigate the result list.
@@ -104,7 +112,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
   - `<Leader>cc` - comment line
   - `[num]<Leader>cc` - comment [num] lines
-  - `<Leader>c<space>` - toggle comment
+  - `<c-c>` (normal mode) - toggle comment
 * [**snipmate.vim**] It aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
   - Example: `for<tab>`
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.

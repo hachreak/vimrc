@@ -11,8 +11,7 @@ BCK=$HOME/.vim.backup
 [ ! -e "$BCK" ] && [ -e "$HOME/.vimrc" ] && echo "[Backup] backup ~/.vimrc" && mv ~/.vimrc $BCK/
 
 # Checkout plugins
-git submodule init
-git submodule update
+git submodule update --init --recursive
 
 # Create directories
 [ ! -e "$HOME/.vim/bundle" ] && echo "[Create] ~/.vim/bundle" && mkdir -p ~/.vim/bundle
@@ -25,6 +24,10 @@ for bundle in `ls $DIR/bundle/`; do
   echo "[Link] bundle $bundle"
   ln -sf $DIR/bundle/$bundle ~/.vim/bundle
 done
+
+# Install module YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh
 
 # Add git alias in .bashrc configuration
 if [ -n "`grep "Enable hachreak vim alias" ~/.bashrc`" ]; then

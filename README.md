@@ -25,6 +25,8 @@ configuration in your environment.
 Extra Installation
 ------------------
 
+### Module tagbar
+
 To be able to use the module *tagbar*, you need to install *exuberant*.
 
 With apt-get:
@@ -39,10 +41,29 @@ With yum:
 sudo yum install ctags-etags
 ```
 
+### Copy/Paste functionality
+
 To use *Copy/Paste* functionality, Vim should be compiled with support for the +clipboard.
 To know if is enabled, try: `vim --version|grep clipboard`.
 
 If it's not enabled, you can install `vim-gtk`.
+
+
+### Module YouCompleteMe
+
+You have to install *cmake* and *python-dev*.
+
+With apt-get:
+
+```bash
+sudo apt-get install cmake python-dev
+```
+
+With yum:
+
+```bash
+sudo yum install cmake python-devel
+```
 
 Extend configurations
 ---------------------
@@ -84,7 +105,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-p>` - invoke CtrlP in find file mode
   - `<c-left/right arrow>` - to navigate the result list.
   - `<c-t>` or `<c-v>` (vertical), `<c-x>`, `<c-o>`  - to open the selected entry in a new tab or in a new split.
-  - `<c-p>` => filename:25 - to open file at line 25
+  - `<c-p>`, filename:25 - to open file at line 25
+  - `<c-d>`- to switch to filename search instead of full path
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
   - `<Leader>b` - add breakpoint

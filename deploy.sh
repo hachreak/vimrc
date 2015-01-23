@@ -1,6 +1,7 @@
 #!/bin/sh
 
-DIR=`pwd`
+SCRIPT_DIR=`readlink -f $0`
+DIR=`dirname $SCRIPT_DIR`
 
 # Backup vim configuration
 BCK=$HOME/.vim.backup
@@ -8,7 +9,7 @@ BCK=$HOME/.vim.backup
 [ ! -e "$BCK" ] && echo "[Backup] Start backup old vim environment." && mkdir $BCK
 #[ -e "$HOME/.vim" ] && echo "[Backup] backup ~/.vim" && mv ~/.vim $BCK/
 # backup only the first time
-[ ! -e "$BCK" ] && [ -e "$HOME/.vimrc" ] && echo "[Backup] backup ~/.vimrc" && mv ~/.vimrc $BCK/
+[ ! -e "$BCK" ] && [ -f "$HOME/.vimrc" ] && echo "[Backup] backup ~/.vimrc" && mv ~/.vimrc $BCK/
 
 # Checkout plugins
 git submodule update --init --recursive
@@ -19,7 +20,7 @@ git submodule update --init --recursive
 # Link the current vimrc
 cd ~/
 ln -sf "$DIR/vimrc" ~/.vimrc
-# and the bundle
+# and the bundles
 for bundle in `ls $DIR/bundle/`; do
   echo "[Link] bundle $bundle"
   ln -sf $DIR/bundle/$bundle ~/.vim/bundle

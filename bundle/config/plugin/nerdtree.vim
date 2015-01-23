@@ -8,4 +8,6 @@ endif
 " NERDTree Ignore
 let NERDTreeIgnore=['\.pyc']
 " toggle nerdtree using nt
-nmap nt :NERDTreeToggle<CR>
+nmap <Leader>n :NERDTreeToggle<CR>
+" Find the current file in the tree
+nmap <Leader>t :NERDTreeFind<CR>

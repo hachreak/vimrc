@@ -153,7 +153,8 @@ I recommend reading the docs of these plugins to understand them better!
     - `R`: Refresh the tree, useful if files change outside of Vim
     - `?`: Toggle NERD Tree's quick help
   - `vim [directory]` - open nerdtree
-  - `nt` - toggle nerdtree
+  - `<Leader>n` - toggle nerdtree
+  - `<Leader>t` - open nerdtree and find the current file in the tree
 * [**CmdlineComplete**] complete command-line (: / etc.) from the current file
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**nerdcommenter**] Vim plugin for intensely orgasmic commenting

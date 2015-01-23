@@ -173,3 +173,4 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-phpqa**] PHP QA tools for Vim
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
+* [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.

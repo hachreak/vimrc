@@ -10,7 +10,7 @@ and plugins settings in `bundle/config/plugin` directory.
 Install
 -------
 
-Clone this repo:
+Clone this repo and deploy:
 
 ```bash
   laptop> git clone https://github.com/hachreak/vimrc.git
@@ -20,6 +20,31 @@ Clone this repo:
 
 The script backup your .vimrc and .vim and then install the
 configuration in your environment.
+
+
+Upgrade
+-------
+
+Execute undeploy script and install again:
+
+```bash
+  laptop> cd vimrc
+  laptop> ./undeploy.sh
+  laptop> git fetch origin
+  laptop> git merge --ff-only origin/master
+  laptop> ./deploy.sh
+```
+
+
+Uninstall
+---------
+
+Execute undeploy script:
+
+```bash
+  laptop> cd vimrc
+  laptop> ./undeploy.sh
+```
 
 
 Extra Installation
@@ -146,3 +171,5 @@ I recommend reading the docs of these plugins to understand them better!
   - `<CR>` on a state - it will revert the contents.
   - `p` on a state - preview window show the diff between your current state and the selected state.
 * [**vim-phpqa**] PHP QA tools for Vim
+* [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
+  - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.

@@ -126,6 +126,10 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-x>` (insert mode) - cut selected text ( support the clipboard)
   - `<c-c>` (insert mode) - copy selected text ( support the clipboard)
   - `<c-v>` (insert mode) - paste selected text ( support the clipboard)
+* [**CmdlineComplete**] complete command-line (: / etc.) from the current file
+  - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
+* [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.
+* [**YouCompleteMe**] a code-completion engine for Vim.
 * [**ctrlp.vim**] Finder for Vim
   - `<c-p>` - invoke CtrlP in find file mode
   - `<c-left/right arrow>` - to navigate the result list.
@@ -133,18 +137,18 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-p>`, filename:25 - to open file at line 25
   - `<c-d>`- to switch to filename search instead of full path
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
-* [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
-  - `<Leader>b` - add breakpoint
-  - `K`  - show documentation for current word (selection)
-  - `<c-space>` - for autocompletion
-  - `<c-c>g` - open definition
-  - `[[` - Jump to previous class or function (normal, visual, operator modes)
-  - `]]` - Jump to next class or function (normal, visual, operator modes)
-  - `zz` - Toggle fonding
-* [**vim-pathogen**] It makes it super easy to install plugins.
-* [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
-  - Type abbreviation as `'div>p#foo$*3>a'` and type |`<C-Y>,`|.
+  - Type abbreviation as `'div>p#foo$*3>a'` and type |`<C-Y>,`| (`Ctrl-y` + `,`).
+* [**gundo.vim**] Graph your Vim undo tree in style.
+  - `<Leader>u` - Toggle gundo interface.
+  - `<CR>` on a state - it will revert the contents.
+  - `p` on a state - preview window show the diff between your current state and the selected state.
+* [**mru**] Most Recently Used (MRU) Vim Plugin
+  - `mr` - Open list of recent files opened
+* [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
+  - `<Leader>cc` - comment line
+  - `[num]<Leader>cc` - comment [num] lines
+  - `<c-c>` (normal mode) - toggle comment
 * [**nerdtree**]
   - :NERDTree - open nerdtree
     - `i`: Open the selected file in a horizontal split window
@@ -155,23 +159,20 @@ I recommend reading the docs of these plugins to understand them better!
   - `vim [directory]` - open nerdtree
   - `<Leader>n` - toggle nerdtree
   - `<Leader>t` - open nerdtree and find the current file in the tree
-* [**CmdlineComplete**] complete command-line (: / etc.) from the current file
-  - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
-* [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
-  - `<Leader>cc` - comment line
-  - `[num]<Leader>cc` - comment [num] lines
-  - `<c-c>` (normal mode) - toggle comment
-* [**snipmate.vim**] It aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
-  - Example: `for<tab>`
+* [**nerdtree-git-plugin**] A plugin of NERDTree showing git status.
+* [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
+  - `<Leader>b` - add breakpoint
+  - `K`  - show documentation for current word (selection)
+  - `<c-space>` - for autocompletion
+  - `<c-c>g` - open definition
+  - `[[` - Jump to previous class or function (normal, visual, operator modes)
+  - `]]` - Jump to next class or function (normal, visual, operator modes)
+  - `zz` - Toggle fonding
+  - `<Leader>a` - Fix PEP8 errors in current buffer automatically
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
-* [**mru**] Most Recently Used (MRU) Vim Plugin
-  - `mr` - Open list of recent files opened
-* [**gundo.vim**] Graph your Vim undo tree in style.
-  - `<Leader>u` - Toggle gundo interface.
-  - `<CR>` on a state - it will revert the contents.
-  - `p` on a state - preview window show the diff between your current state and the selected state.
-* [**vim-phpqa**] PHP QA tools for Vim
+* [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
-* [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.
+* [**vim-pathogen**] It makes it super easy to install plugins.
+* [**vim-phpqa**] PHP QA tools for Vim

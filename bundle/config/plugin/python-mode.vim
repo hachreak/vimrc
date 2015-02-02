@@ -14,6 +14,8 @@ let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_sort = ['E', 'C', 'I']
 let g:pymode_lint_ignore = "E266"
 let g:pymode_motion = 1
+" Fix PEP8 errors in current buffer automatically
+nmap <Leader>a :PymodeLintAuto<CR>
 " FIXE Disable rope: in fresh installation could be return segfault
 let g:pymode_rope = 0
 let g:pymode_rope_completion = 1

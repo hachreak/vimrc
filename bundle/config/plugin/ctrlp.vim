@@ -8,6 +8,6 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "   'a' - like c, but only if the current working directory outside of CtrlP
 "         is not a direct ancestor of the directory of the current file.
 "   0 or '' (empty string) - disable this feature.
-let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_working_path_mode = 'ra'
 " Run :CtrlPMixed to search in Files, Buffers and MRU files at the same time.
 let g:ctrlp_cmd = 'CtrlPMixed'

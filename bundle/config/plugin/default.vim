@@ -44,3 +44,7 @@ vmap <C-c> "+yi
 " Paste
 imap <C-v> <ESC>"+pa
 vmap <C-v> c<ESC>"+p
+" Use the mouse to navigate and resize panes
+set ttyfast
+set ttymouse=xterm2
+set mouse=a

@@ -52,3 +52,6 @@
 [submodule "bundle/GoldenView.Vim"]
 	path = bundle/GoldenView.Vim
 	url = git@github.com:zhaocai/GoldenView.Vim.git
+[submodule "bundle/vim-expand-region"]
+	path = bundle/vim-expand-region
+	url = git@github.com:terryma/vim-expand-region.git

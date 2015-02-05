@@ -174,6 +174,8 @@ I recommend reading the docs of these plugins to understand them better!
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
+* [** vim-expand-region**] allows you to visually select increasingly larger regions of text.
+  - Press + to expand the visual selection and _ to shrink it (*not use keypad*).
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
 * [**vim-pathogen**] It makes it super easy to install plugins.

@@ -178,5 +178,11 @@ I recommend reading the docs of these plugins to understand them better!
   - Press + to expand the visual selection and _ to shrink it (*not use keypad*).
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
+* [**vim-multiple-cursors**] True Sublime Text style multiple selections for Vim.
+  - `<C-n>` - Activate multiple selection and select next.
+  - `<S-n>` - Skip next.
+  - `<C-m>` - Go back to the previous virtual cursor location.
+  - `<ESC>` - To exit back to regular Vim.
+  - `v` - Start to work on multiple selections.
 * [**vim-pathogen**] It makes it super easy to install plugins.
 * [**vim-phpqa**] PHP QA tools for Vim

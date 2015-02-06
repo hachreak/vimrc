@@ -146,18 +146,25 @@ I recommend reading the docs of these plugins to understand them better!
   - `<CR>` on a state - it will revert the contents.
   - `p` on a state - preview window show the diff between your current state and the selected state.
 * [**mru**] Most Recently Used (MRU) Vim Plugin
-  - `mr` - Open list of recent files opened
+  - `mr` - Open list of recent files opened.
+    + `o` - Open the file in a new window.
+    + `u` - Update file list.
+    + `<NUMBER>o` - Open next `<NUMBER>` files.
+    + `t` - Open file in a new tab (If the file is already opened in a window in the current or in another tab, then the cursor is moved to that tab).
+  - `:MRU text` - Display only file names matching "text" in them.
+  - `:MRU <Tab>` - Autocompleting name. Then, `<Enter>` to open in a new window.
+  - `:MRU text<C-d>` - Display list names matching "text".
 * [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
   - `<Leader>cc` - comment line
   - `[num]<Leader>cc` - comment [num] lines
   - `<c-c>` (normal mode) - toggle comment
 * [**nerdtree**]
   - :NERDTree - open nerdtree
-    - `i`: Open the selected file in a horizontal split window
-    - `s`: Open the selected file in a vertical split window
-    - `I`: Toggle hidden files
-    - `R`: Refresh the tree, useful if files change outside of Vim
-    - `?`: Toggle NERD Tree's quick help
+    - `i` - Open the selected file in a horizontal split window
+    - `s` - Open the selected file in a vertical split window
+    - `I` - Toggle hidden files
+    - `R` - Refresh the tree, useful if files change outside of Vim
+    - `?` - Toggle NERD Tree's quick help
   - `vim [directory]` - open nerdtree
   - `<Leader>n` - toggle nerdtree
   - `<Leader>t` - open nerdtree and find the current file in the tree

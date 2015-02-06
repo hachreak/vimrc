@@ -47,4 +47,6 @@ vmap <C-v> c<ESC>"+p
 " Use the mouse to navigate and resize panes
 set ttyfast
 set ttymouse=xterm2
-set mouse=a
+" set mouse=i
+" tells Vim to word wrap visually
+set wrap

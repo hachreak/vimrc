@@ -160,11 +160,12 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-c>` (normal mode) - toggle comment
 * [**nerdtree**]
   - :NERDTree - open nerdtree
-    - `i` - Open the selected file in a horizontal split window
-    - `s` - Open the selected file in a vertical split window
-    - `I` - Toggle hidden files
-    - `R` - Refresh the tree, useful if files change outside of Vim
-    - `?` - Toggle NERD Tree's quick help
+    - `i` - Open the selected file in a horizontal split window.
+    - `s` - Open the selected file in a vertical split window.
+    - `I` - Toggle hidden files.
+    - `R` - Refresh the tree, useful if files change outside of Vim.
+    - `?` - Toggle NERD Tree's quick help.
+    - `mo` - To create a new file in selected directory.
   - `vim [directory]` - open nerdtree
   - `<Leader>n` - toggle nerdtree
   - `<Leader>t` - open nerdtree and find the current file in the tree

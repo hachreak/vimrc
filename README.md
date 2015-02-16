@@ -182,9 +182,16 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>a` - Fix PEP8 errors in current buffer automatically
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
+* [**vim-airline**] lean & mean status/tabline for vim that's light as air
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [** vim-expand-region**] allows you to visually select increasingly larger regions of text.
   - Press + to expand the visual selection and _ to shrink it (*not use keypad*).
+* [**Vim-fugitive**] Git wrapper
+  - `:Gbrowse` - To open the current file on GitHub, with optional line range (try it in visual mode!)
+  - `:Ggrep` - To search the work tree (or any arbitrary commit) with git grep.
+  - `:Gmove` - Does a `git mv` on a file and simultaneously renames the buffer.
+  - `:Gremove` - Does a `git rm` on a file and simultaneously deletes the buffer.
+  - `:Gblame` - Brings up an interactive vertical split with `git blame` output. Press enter on a line to edit the commit where the line changed, or `o` to open it in a split. When you're done, use ``:Gedit` in the historic buffer to go back to the work tree version.
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
 * [**vim-move**] Plugin to move lines and selections up and down.

@@ -35,6 +35,8 @@ if [ "$?" -ne 0 ]; then
   git clone git@github.com:powerline/fonts.git fonts
   cd fonts
   ./install.sh
+  cd ~/
+  rm $pwfonts -Rf
 fi
 
 # Install module YouCompleteMe

@@ -50,3 +50,11 @@ set ttymouse=xterm2
 " set mouse=i
 " tells Vim to word wrap visually
 set wrap
+" Always display the status line at the bottom of the vim window (column,
+" filename, etc.)
+set ruler
+" Turn on line numbers. This one is pretty obvious.
+set number
+" This will get rid of antiquaited backwards-compatability settings and make
+" vim a bit more usable.
+set nocompatible

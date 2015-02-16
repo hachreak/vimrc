@@ -26,6 +26,17 @@ for bundle in `ls $DIR/bundle/`; do
   ln -sf $DIR/bundle/$bundle ~/.vim/bundle
 done
 
+# Install powerline fonts
+ls ~/.fonts/*Powerline.otf 2> /dev/null
+if [ "$?" -ne 0 ]; then
+  echo "[Fonts] install powerline fonts"
+  pwfonts=$(mktemp -dt "$0")
+  cd $pwfonts
+  git clone git@github.com:powerline/fonts.git fonts
+  cd fonts
+  ./install.sh
+fi
+
 # Install module YouCompleteMe
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh

@@ -147,7 +147,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `p` on a state - preview window show the diff between your current state and the selected state.
 * [**mru**] Most Recently Used (MRU) Vim Plugin
   - `mr` - Open list of recent files opened.
-    + `o` - Open the file in a new window.
+    + `o` - Open the file in a new horizontal window.
+    + `O` - Open the file in a new vertical window.
     + `u` - Update file list.
     + `<NUMBER>o` - Open next `<NUMBER>` files.
     + `t` - Open file in a new tab (If the file is already opened in a window in the current or in another tab, then the cursor is moved to that tab).

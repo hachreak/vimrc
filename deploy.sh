@@ -2,6 +2,18 @@
 
 SCRIPT_DIR=`readlink -f $0`
 DIR=`dirname $SCRIPT_DIR`
+FORCE=0
+
+# script arguments
+while getopts "fh" opt; do
+  case $opt in
+    f)
+      FORCE=1
+      ;;
+    h)
+      echo Use $0 -f to force reinstalling of all modules
+  esac
+done
 
 # Backup vim configuration
 BCK=$HOME/.vim.backup
@@ -28,7 +40,7 @@ done
 
 # Install powerline fonts
 ls ~/.fonts/*Powerline.otf 2> /dev/null
-if [ "$?" -ne 0 ]; then
+if [ "$?" -ne 0 ] || [ $FORCE -eq 1 ]; then
   echo "[Fonts] install powerline fonts"
   pwfonts=$(mktemp -dt "$0")
   cd $pwfonts
@@ -40,8 +52,11 @@ if [ "$?" -ne 0 ]; then
 fi
 
 # Install module YouCompleteMe
-cd ~/.vim/bundle/YouCompleteMe
-./install.sh
+if ! [ -f ~/.vim/.YouCompleteMe.installed ] || [ $FORCE -eq 1 ]; then
+  cd ~/.vim/bundle/YouCompleteMe
+  ./install.sh
+  touch ~/.vim/.YouCompleteMe.installed
+fi
 
 # Add git alias in .bashrc configuration
 if [ -n "`grep "Enable hachreak vim alias" ~/.bashrc`" ]; then

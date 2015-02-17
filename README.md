@@ -22,6 +22,17 @@ The script backup your .vimrc and .vim and then install the
 configuration in your environment.
 
 
+Options
+-------
+
+```bash
+  # To force reinstalling of all modules
+  laptop> ./deploy.sh -f
+  # Help
+  laptop> ./deploy.sh -h
+```
+
+
 Upgrade
 -------
 

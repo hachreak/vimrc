@@ -58,13 +58,6 @@ if ! [ -f ~/.vim/.YouCompleteMe.installed ] || [ $FORCE -eq 1 ]; then
   touch ~/.vim/.YouCompleteMe.installed
 fi
 
-# Install vimproc.vim
-if ! [ -f ~/.vim/.vimproc.vim.installed ] || [ $FORCE -eq 1 ]; then
-  cd ~/.vim/bundle/vimproc.vim
-  make
-  touch ~/.vim/.vimproc.vim.installed
-fi
-
 # Add git alias in .bashrc configuration
 if [ -n "`grep "Enable hachreak vim alias" ~/.bashrc`" ]; then
   echo "[Warning] Vim alias already installed in ~/.bashrc"

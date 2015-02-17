@@ -61,6 +61,10 @@ Execute undeploy script:
 Extra Installation
 ------------------
 
+### Module screen
+
+The module needs gnu screen or tmux installed.
+
 ### Module tagbar
 
 To be able to use the module *tagbar*, you need to install *exuberant*.
@@ -193,6 +197,13 @@ I recommend reading the docs of these plugins to understand them better!
   - `]]` - Jump to next class or function (normal, visual, operator modes)
   - `zz` - Toggle fonding
   - `<Leader>a` - Fix PEP8 errors in current buffer automatically
+* [**screen**] Simulate a split shell in vim using gnu screen or tmux.
+  - `:ScreenShell yourcommand` - Run your command in a shell.
+  - `:ScreenShellReopen` - If you've started a shell using `:ScreenShell` or `:ScreenShellVertical` and exit that shell manually (^D, $ exit, etc) without running `:ScreenQuit`, then `:ScreenShellReopen` will re-open that shell again for you.
+  - `<c-b>` + `Arrow` - To move cursor into the shell.
+  - `:ScreenSend` - Send the visual selection or the entire buffer contents to the running gnu.
+  - `IPython` - Start ipython on a shell.
+  screen shell window.
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
 * [**vim-airline**] lean & mean status/tabline for vim that's light as air

@@ -203,7 +203,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-b>` + `Arrow` - To move cursor into the shell.
   - `:ScreenSend` - Send the visual selection or the entire buffer contents to the running gnu.
   - `IPython` - Start ipython on a shell.
-  screen shell window.
+  - `<c-b>[` - Scroll the tmux/screen window.
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
 * [**vim-airline**] lean & mean status/tabline for vim that's light as air

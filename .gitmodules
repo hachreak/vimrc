@@ -67,3 +67,9 @@
 [submodule "bundle/Vim-fugitive"]
 	path = bundle/Vim-fugitive
 	url = https://github.com/tpope/Vim-fugitive
+[submodule "bundle/vimshell.vim"]
+	path = bundle/vimshell.vim
+	url = git@github.com:Shougo/vimshell.vim.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = git@github.com:Shougo/vimproc.vim.git

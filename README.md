@@ -143,6 +143,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-v>` (insert mode) - paste selected text ( support the clipboard)
   - `<c-w>` + `Arrow` - move from a window to another.
   - `<c-o>` - close other windows.
+  - `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - simplify the move from a window to another window.
 * [**CmdlineComplete**] complete command-line (: / etc.) from the current file
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.
@@ -155,7 +156,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-d>`- to switch to filename search instead of full path
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
-  - Type abbreviation as `'div>p#foo$*3>a'` and type |`<C-Y>,`| (`Ctrl-y` + `,`).
+  - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y + ,`.
 * [**GoldenView.Vim**] Always have a nice view for vim split windows!
   - `:ToggleGoldenViewAutoResize` - To toggle the auto resize.
 * [**gundo.vim**] Graph your Vim undo tree in style.

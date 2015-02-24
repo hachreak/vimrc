@@ -12,7 +12,7 @@
 	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
@@ -42,7 +42,7 @@
 	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/MatchTagAlways"]
 	path = bundle/MatchTagAlways
 	url = https://github.com/Valloric/MatchTagAlways.git
@@ -51,22 +51,22 @@
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "bundle/GoldenView.Vim"]
 	path = bundle/GoldenView.Vim
-	url = git@github.com:zhaocai/GoldenView.Vim.git
+	url = https://github.com/zhaocai/GoldenView.Vim.git
 [submodule "bundle/vim-expand-region"]
 	path = bundle/vim-expand-region
-	url = git@github.com:terryma/vim-expand-region.git
+	url = https://github.com/terryma/vim-expand-region.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
+	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "bundle/vim-move"]
 	path = bundle/vim-move
 	url = https://github.com/matze/vim-move
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = git@github.com:bling/vim-airline.git
+	url = https://github.com/bling/vim-airline.git
 [submodule "bundle/Vim-fugitive"]
 	path = bundle/Vim-fugitive
 	url = https://github.com/tpope/Vim-fugitive
 [submodule "bundle/screen"]
 	path = bundle/screen
-	url = git@github.com:ervandew/screen.git
+	url = https://github.com/ervandew/screen.git

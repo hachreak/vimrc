@@ -58,3 +58,8 @@ set number
 " This will get rid of antiquaited backwards-compatability settings and make
 " vim a bit more usable.
 set nocompatible
+" Move in another window
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h

@@ -220,6 +220,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `:Gblame` - Brings up an interactive vertical split with `git blame` output. Press enter on a line to edit the commit where the line changed, or `o` to open it in a split. When you're done, use ``:Gedit` in the historic buffer to go back to the work tree version.
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
+* [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
   - `<C-Up>` - move the rows up.
   - `<C-Down>` - mode the rows down.

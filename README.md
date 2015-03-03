@@ -149,6 +149,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `y` or `d` or `c` + `/VALUE<Enter>` - copy or delete or change from here to first occurrence of `VALUE`.
   - `y` or `d` or `c` + `?VALUE<Enter>` - copy or delete or change from the first occurrence of `VALUE` to here.
   - `cNw` - change next N words (delete next N words and enter in `Insert mode`).
+  - `:copen` - open the QuickFix window.
+  - `:cnext` / `cprev` - move into the QuickFix window.
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.
@@ -156,6 +158,9 @@ I recommend reading the docs of these plugins to understand them better!
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.
 * [**YouCompleteMe**] a code-completion engine for Vim.
+* [**agit**] Sow repository history and commit details at the same time.
+  - `:Agit` - Show logs.
+  - `:AgitFile` - Show logs of the opened file.
 * [**ctrlp.vim**] Finder for Vim
   - `<c-p>` - invoke CtrlP in find file mode
   - `<c-left/right arrow>` - to navigate the result list.

@@ -144,6 +144,14 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-w>` + `Arrow` - move from a window to another.
   - `<c-o>` - close other windows.
   - `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - simplify the move from a window to another window.
+  - `:reg` - see nnamed registers.
+  - `:Np` - paste the Nth register's content.
+  - `y` or `d` or `c` + `/VALUE<Enter>` - copy or delete or change from here to first occurrence of `VALUE`.
+  - `y` or `d` or `c` + `?VALUE<Enter>` - copy or delete or change from the first occurrence of `VALUE` to here.
+  - `cNw` - change next N words (delete next N words and enter in `Insert mode`).
+* [**tricks**]
+  - `:%!column -t` - formatting a table of values.
+  - `:%!sort -kN` - sort table by column N.
 * [**CmdlineComplete**] complete command-line (: / etc.) from the current file
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.

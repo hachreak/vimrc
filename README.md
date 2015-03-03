@@ -202,6 +202,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `vim [directory]` - open nerdtree
   - `<Leader>n` - toggle nerdtree
   - `<Leader>t` - open nerdtree and find the current file in the tree
+* [**nerdtree-execute**] Plugin for NERD Tree that provides an execute menu item, that executes system default application for file or directory.
+  - `mx` - execute system default application for selected file/directory (e.g. open your favourite image editor for images).
 * [**nerdtree-git-plugin**] A plugin of NERDTree showing git status.
 * [**open-browser**] Open URI with your favorite browser.
 * [**open-browser-github.vim**] Open GitHub URL of current file, etc. from Vim editor.

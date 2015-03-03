@@ -71,7 +71,7 @@
 	path = bundle/screen
 	url = https://github.com/ervandew/screen.git
 [submodule "ctrlp-funky"]
-	path = ctrlp-funky
+	path = bundle/ctrlp-funky
 	url = https://github.com/tacahiroy/ctrlp-funky.git
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript

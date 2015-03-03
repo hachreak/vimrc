@@ -203,6 +203,16 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>n` - toggle nerdtree
   - `<Leader>t` - open nerdtree and find the current file in the tree
 * [**nerdtree-git-plugin**] A plugin of NERDTree showing git status.
+* [**open-browser**] Open URI with your favorite browser.
+* [**open-browser-github.vim**] Open GitHub URL of current file, etc. from Vim editor.
+  - `:OpenGithubFile` - Opens current files URL in github.com.
+  - `:'<,'>OpenGithubFile` - Opens current files highlighted place in github.com.
+  - `:OpenGithubFile PATH/TO/FILE` - Opens a specific file in github.com.
+  - `:OpenGithubIssue 1` - Opens current repositories Issue #1.
+  - `:OpenGithubIssue 1 tyru/open-browser.vim` - Opens a specific repositories Issue #1.
+  - `:OpenGithubIssue` - Opens current repositories Issue List.
+  - `:OpenGithubIssue tyru/open-browser.vim` - Opens a specific repositories Issue list.
+  - `:OpenGithubPullReq` - The same of Issue, but this time open pulls page.
 * [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
   - `<Leader>b` - add breakpoint
   - `K`  - show documentation for current word (selection)

@@ -79,3 +79,9 @@
 [submodule "bundle/agit.vim"]
 	path = bundle/agit.vim
 	url = https://github.com/cohama/agit.vim.git
+[submodule "bundle/open-browser.vim"]
+	path = bundle/open-browser.vim
+	url = https://github.com/tyru/open-browser.vim.git
+[submodule "bundle/open-browser-github.vim"]
+	path = bundle/open-browser-github.vim
+	url = https://github.com/tyru/open-browser-github.vim.git

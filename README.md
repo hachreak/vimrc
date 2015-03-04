@@ -154,6 +154,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.
+  - select with the mouse and paste with `p`.
 * [**CmdlineComplete**] complete command-line (: / etc.) from the current file
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.

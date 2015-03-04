@@ -63,3 +63,6 @@ map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
+" Vim will use the clipboard register '*' for all yank, delete, change. E.g.
+" select with the mouse and the press `p` to paste.
+set clipboard=unnamed

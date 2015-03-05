@@ -171,7 +171,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**ctrlp-funky**] It simply navigates and jumps to function definitions.
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
-  - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y + ,`.
+  - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y` + `,`.
 * [**GoldenView.Vim**] Always have a nice view for vim split windows!
   - `:ToggleGoldenViewAutoResize` - To toggle the auto resize.
 * [**gundo.vim**] Graph your Vim undo tree in style.
@@ -237,7 +237,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-airline**] lean & mean status/tabline for vim that's light as air
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [** vim-expand-region**] allows you to visually select increasingly larger regions of text.
-  - Press + to expand the visual selection and _ to shrink it (*not use keypad*).
+  - Press `+` to expand the visual selection and `_` to shrink it (*not use keypad*).
 * [**Vim-fugitive**] Git wrapper
   - `:Gbrowse` - To open the current file on GitHub, with optional line range (try it in visual mode!)
   - `:Ggrep` - To search the work tree (or any arbitrary commit) with git grep.

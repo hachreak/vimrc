@@ -44,7 +44,7 @@ if [ "$?" -ne 0 ] || [ $FORCE -eq 1 ]; then
   echo "[Fonts] install powerline fonts"
   pwfonts=$(mktemp -dt "$0")
   cd $pwfonts
-  git clone git@github.com:powerline/fonts.git fonts
+  git clone https://github.com/powerline/fonts.git fonts
   cd fonts
   ./install.sh
   cd ~/

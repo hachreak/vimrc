@@ -151,6 +151,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `cNw` - change next N words (delete next N words and enter in `Insert mode`).
   - `:copen` - open the QuickFix window.
   - `:cnext` / `cprev` - move into the QuickFix window.
+  - `:set ignorecase! ignorecase?` - To switch between case sensitive and insensitive search.
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.

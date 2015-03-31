@@ -61,11 +61,15 @@ Execute undeploy script:
 Extra Installation
 ------------------
 
-### Module screen
+Use the `preinstall.sh` script to automatically install all the dependencies.
+
+Note: the script is ready to use only on ubuntu.
+
+#### Module screen
 
 The module needs gnu screen or tmux installed.
 
-### Module tagbar
+#### Module tagbar
 
 To be able to use the module *tagbar*, you need to install *exuberant*.
 
@@ -81,7 +85,7 @@ With yum:
 sudo yum install ctags-etags
 ```
 
-### Copy/Paste functionality
+#### Copy/Paste functionality
 
 To use *Copy/Paste* functionality, Vim should be compiled with support for the +clipboard.
 To know if is enabled, try: `vim --version|grep clipboard`.
@@ -89,9 +93,9 @@ To know if is enabled, try: `vim --version|grep clipboard`.
 If it's not enabled, you can install `vim-gtk`.
 
 
-### Module YouCompleteMe
+#### Module YouCompleteMe
 
-You have to install *cmake* and *python-dev*.
+You have to install *cmake* and *python-dev* and vim>7.3.584+.
 
 With apt-get:
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 os_version(){
-  echo lsb_release -i|awk '{print $3}'
+  lsb_release -i|awk '{print $3}'
 }
 
 sudo apt-get update

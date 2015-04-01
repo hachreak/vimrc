@@ -15,6 +15,7 @@ Clone this repo and deploy:
 ```bash
   laptop> git clone https://github.com/hachreak/vimrc.git
   laptop> cd vimrc
+  laptop> sh ./preinstall.sh
   laptop> ./deploy.sh
 ```
 
@@ -58,7 +59,7 @@ Execute undeploy script:
 ```
 
 
-Extra Installation
+Extra requirements
 ------------------
 
 Use the `preinstall.sh` script to automatically install all the dependencies.

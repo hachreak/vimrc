@@ -251,6 +251,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `:Gremove` - Does a `git rm` on a file and simultaneously deletes the buffer.
   - `:Gblame` - Brings up an interactive vertical split with `git blame` output. Press enter on a line to edit the commit where the line changed, or `o` to open it in a split. When you're done, use ``:Gedit` in the historic buffer to go back to the work tree version.
   - resolving merge conflicts with vimdiff
+    + `:Gvdiff` - Open 3 split windows.
     + `[c` - Jump to previous hunk.
     + `]c` - Jump to next hunk.
     + `dp` - Shorthand for `:diffput`.

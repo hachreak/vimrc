@@ -1,4 +1,4 @@
-vimrc
+ovimrc
 =====
 
 Personal vim configurations.
@@ -157,6 +157,15 @@ I recommend reading the docs of these plugins to understand them better!
   - `:copen` - open the QuickFix window.
   - `:cnext` / `cprev` - move into the QuickFix window.
   - `:set ignorecase! ignorecase?` - To switch between case sensitive and insensitive search.
+  - Font:
+    + `<c-w->` (ctrl-w and in same time `-`) - reduce the font.
+    + `<c-w+>` - increase the font.
+    + `<c-w0>` - set default size.
+  - Windows:
+    + `<c-w>=` - To resize all windows to equal dimensions based on their splits.
+    + `:only` - close all the windows apart the current one.
+    + `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - to move from a window to another one.
+    + `<c-up>`, `<c-down>`, `<c-left>`, `<c-right>` - to resize current window.
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.
@@ -261,8 +270,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
-  - `<C-Up>` - move the rows up.
-  - `<C-Down>` - mode the rows down.
+  - `<C-k>` - move the rows up.
+  - `<C-j>` - mode the rows down.
 * [**vim-multiple-cursors**] True Sublime Text style multiple selections for Vim.
   - `<C-n>` - Activate multiple selection and select next.
   - `<S-n>` - Skip next.

@@ -150,7 +150,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-o>` - close other windows.
   - `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - simplify the move from a window to another window.
   - `:reg` - see nnamed registers.
-  - `:Np` - paste the Nth register's content.
+  - `"Np` - paste the Nth register's content.
   - `y` or `d` or `c` + `/VALUE<Enter>` - copy or delete or change from here to first occurrence of `VALUE`.
   - `y` or `d` or `c` + `?VALUE<Enter>` - copy or delete or change from the first occurrence of `VALUE` to here.
   - `cNw` - change next N words (delete next N words and enter in `Insert mode`).

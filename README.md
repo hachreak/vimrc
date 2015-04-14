@@ -158,9 +158,9 @@ I recommend reading the docs of these plugins to understand them better!
   - `:cnext` / `cprev` - move into the QuickFix window.
   - `:set ignorecase! ignorecase?` - To switch between case sensitive and insensitive search.
   - Font:
-    + `<c-w->` (ctrl-w and in same time `-`) - reduce the font.
-    + `<c-w+>` - increase the font.
-    + `<c-w0>` - set default size.
+    + `<c-->` (ctrl-w and in same time `-`) - reduce the font.
+    + `<c-+>` - increase the font.
+    + `<c-0>` - set default size.
   - Windows:
     + `<c-w>=` - To resize all windows to equal dimensions based on their splits.
     + `:only` - close all the windows apart the current one.
@@ -263,11 +263,14 @@ I recommend reading the docs of these plugins to understand them better!
     + `:Gvdiff` - Open 3 split windows.
     + `[c` - Jump to previous hunk.
     + `]c` - Jump to next hunk.
-    + `dp` - Shorthand for `:diffput`.
+    + `:diffget //2` (from left window) or `diffget //3` (from right window) - Get changes from left/right window (you are in central window).
+    + `:diffupdate` - update diffs.
     + `:only` - Cose all windows apart from the current one.
     + `:Gwrite!` - Write the current file to the index (use the target version or merge version depending on which window you are).
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
+  - `:GitGutterPreviewHunk` - Revert the hunk the cursor is in.
+  - `]c` and `[c` - jump to next/previous hunk (change).
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
   - `<C-k>` - move the rows up.

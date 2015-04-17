@@ -1,4 +1,4 @@
-ovimrc
+vimrc
 =====
 
 Personal vim configurations.
@@ -7,8 +7,7 @@ You can found general settings in `bundle/config/plugin/config.vim`
 and plugins settings in `bundle/config/plugin` directory.
 
 
-Install
--------
+## Install
 
 Clone this repo and deploy:
 
@@ -23,8 +22,7 @@ The script backup your .vimrc and .vim and then install the
 configuration in your environment.
 
 
-Options
--------
+### Options
 
 ```bash
   # To force reinstalling of all modules
@@ -34,8 +32,7 @@ Options
 ```
 
 
-Upgrade
--------
+### Upgrade
 
 Execute undeploy script and install again:
 
@@ -48,8 +45,7 @@ Execute undeploy script and install again:
 ```
 
 
-Uninstall
----------
+## Uninstall
 
 Execute undeploy script:
 
@@ -59,8 +55,7 @@ Execute undeploy script:
 ```
 
 
-Extra requirements
-------------------
+## Extra requirements
 
 Use the `preinstall.sh` script to automatically install all the dependencies.
 
@@ -110,8 +105,7 @@ With yum:
 sudo yum install cmake python-devel
 ```
 
-Extend configurations
----------------------
+## Extend configurations
 
 Add submodule or plugins, in your `repos` directory:
 

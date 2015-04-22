@@ -267,8 +267,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `]c` and `[c` - jump to next/previous hunk (change).
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
-  - `<C-k>` - move the rows up.
-  - `<C-j>` - mode the rows down.
+  - `<C-Up>` - (visual mode) move the rows up.
+  - `<C-Down>` - (visual mode) mode the rows down.
 * [**vim-multiple-cursors**] True Sublime Text style multiple selections for Vim.
   - `<C-n>` - Activate multiple selection and select next.
   - `<S-n>` - Skip next.

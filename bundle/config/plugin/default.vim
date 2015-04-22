@@ -71,3 +71,8 @@ nnoremap <C-right> <C-W>>
 " Vim will use the clipboard register '*' for all yank, delete, change. E.g.
 " select with the mouse and the press `p` to paste.
 set clipboard=unnamed
+" show vertical line to indicate the 80th column
+if exists('+colorcolumn')
+  autocmd VimEnter,Colorscheme * :set colorcolumn=80
+  autocmd VimEnter,Colorscheme * :highlight ColorColumn ctermbg=White
+endif

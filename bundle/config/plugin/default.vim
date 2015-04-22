@@ -64,10 +64,10 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 " Resizing windows
-nnoremap <C-up> <C-W>+
-nnoremap <C-down> <C-W>-
-nnoremap <C-left> <C-W><
-nnoremap <C-right> <C-W>>
+nnoremap <S-up> <C-W>+
+nnoremap <S-down> <C-W>-
+nnoremap <S-left> <C-W><
+nnoremap <S-right> <C-W>>
 " Vim will use the clipboard register '*' for all yank, delete, change. E.g.
 " select with the mouse and the press `p` to paste.
 set clipboard=unnamed

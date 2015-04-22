@@ -159,7 +159,7 @@ I recommend reading the docs of these plugins to understand them better!
     + `<c-w>=` - To resize all windows to equal dimensions based on their splits.
     + `:only` - close all the windows apart the current one.
     + `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - to move from a window to another one.
-    + `<c-up>`, `<c-down>`, `<c-left>`, `<c-right>` - to resize current window.
+    + `<s-up>`, `<s-down>`, `<s-left>`, `<s-right>` - to resize current window.
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.

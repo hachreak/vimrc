@@ -263,7 +263,7 @@ I recommend reading the docs of these plugins to understand them better!
     + `:Gwrite!` - Write the current file to the index (use the target version or merge version depending on which window you are).
 * [**vim-gitgutter**] Vim Git Gutter is a Vim plugin which shows a git diff in the 'gutter' (sign column).
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
-  - `:GitGutterPreviewHunk` - Revert the hunk the cursor is in.
+  - `<Leader>hr` - Revert the hunk the cursor is in.
   - `]c` and `[c` - jump to next/previous hunk (change).
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.

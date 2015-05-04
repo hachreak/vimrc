@@ -119,6 +119,11 @@ Now, you can add specific configuration of the module here:
   laptop> vim bundle/config/plugin/*[plugin]*.vim
 ```
 
+## Manually update all submodules
+
+```bash
+  laptop> git submodule update --remote --merge
+```
 
 Plugin list and shortcuts
 -------------------------

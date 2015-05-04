@@ -122,7 +122,7 @@ Now, you can add specific configuration of the module here:
 ## Manually update all submodules
 
 ```bash
-  laptop> git submodule update --remote --merge
+  laptop> git submodule update --remote --rebase --recursive
 ```
 
 Plugin list and shortcuts

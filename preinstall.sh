@@ -16,3 +16,4 @@ fi
 sudo add-apt-repository ppa:fcwu-tw/ppa -y
 sudo apt-get update
 sudo apt-get install vim
+pip install isort

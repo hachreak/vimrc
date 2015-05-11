@@ -88,3 +88,6 @@
 [submodule "bundle/nerdtree-execute"]
 	path = bundle/nerdtree-execute
 	url = https://github.com/ivalkeen/nerdtree-execute.git
+[submodule "bundle/vim-isort"]
+	path = bundle/vim-isort
+	url = https://github.com/fisadev/vim-isort.git

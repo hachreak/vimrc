@@ -105,12 +105,20 @@ With yum:
 sudo yum install cmake python-devel
 ```
 
+#### Module vim-isort
+
+You need to install isort:
+
+```bash
+pip install isort
+```
+
 ## Extend configurations
 
 Add submodule or plugins, in your `repos` directory:
 
 ```bash
-  laptop> git submodule add git://github.com:username/*[plugin]*.git bundle/*[plugin]*
+  laptop> git submodule add https://github.com/username/*[plugin]*.git bundle/*[plugin]*
 ```
 
 Now, you can add specific configuration of the module here:
@@ -270,6 +278,8 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>g` - (On the row modified) Preview the hunk the cursor is in.
   - `<Leader>hr` - Revert the hunk the cursor is in.
   - `]c` and `[c` - jump to next/previous hunk (change).
+* [**vim-isort**] Vim plugin to sort python imports using isort
+  - `:Isort` or `<c-i>` - sort python import
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
   - `<C-Up>` - (visual mode) move the rows up.

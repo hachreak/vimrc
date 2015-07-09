@@ -54,6 +54,15 @@ Execute undeploy script:
   laptop> ./undeploy.sh
 ```
 
+## Configure
+
+#### Ctags
+
+Start from the root of your project to generate tags:
+
+```bash
+  laptop> ctags -R --exclude=.git .
+```
 
 ## Extra requirements
 
@@ -164,6 +173,20 @@ I recommend reading the docs of these plugins to understand them better!
   - `:copen` - open the QuickFix window.
   - `:cnext` / `cprev` - move into the QuickFix window.
   - `:set ignorecase! ignorecase?` - To switch between case sensitive and insensitive search.
+  - Ctags:
+    - `:ts /tofind` - tags search: search all definition and jump there. (note: you can use `TAB` for autocompletion and regex)
+    - `:ta tofind` - tags jump: search and jump. (note: you can use `TAB` for autocompletion)
+    - `g]` - Move the cursor on the word and press the combination to search like `ts` do.
+    - `<c-w> + ]` - Move the cursor on the word and press the combination to open the best matching in orizontal window.
+    - Preview
+      - `<c-w> + }` - the same as before, but open a preview window.
+      - `:ptn` - Preview the next matching tag.
+      - `:ptN` - Preview the previous matching tag.
+      - `:pc` - close preview window.
+    - Tag Stack
+      - `:[n]po` - Pop `n` items from tag stack (go up).
+      - `:[n]ta` - Push `n` items to tag stack (go up).
+
   - Font:
     + `<c-->` (ctrl-w and in same time `-`) - reduce the font.
     + `<c-+>` - increase the font.

@@ -91,3 +91,6 @@
 [submodule "bundle/vim-isort"]
 	path = bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git

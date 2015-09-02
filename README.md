@@ -224,6 +224,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<Leader>u` - Toggle gundo interface.
   - `<CR>` on a state - it will revert the contents.
   - `p` on a state - preview window show the diff between your current state and the selected state.
+* [**indentLine**] A vim plugin to display the indention levels with thin vertical lines
 * [**mru**] Most Recently Used (MRU) Vim Plugin
   - `mr` - Open list of recent files opened.
     + `o` - Open the file in a new horizontal window.

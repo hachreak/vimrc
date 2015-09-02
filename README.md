@@ -150,8 +150,9 @@ I recommend reading the docs of these plugins to understand them better!
 * [**console**] Console shortcuts
   - `v` - open vim
 * [**default**] General shortcut
-  - `<c-t>` - Open new tab
-  - `<c-q>` - Close tab
+  - Tabs:
+    - `<c-t>` - Open new tab
+    - `<c-Left>`, `<c-Right>` - Move from one tab to another
   - `>>` - Increase identation
   - `<<` - Decrease identation
   - `Y` - copy to end of line

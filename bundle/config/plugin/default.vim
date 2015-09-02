@@ -30,6 +30,8 @@ set backupdir=/tmp
 " map tabnew
 imap <C-t> <Esc>:tabnew<CR>
 nmap <C-t> :tabnew<CR>
+map <C-Left> <Esc>:tabprev<CR>
+map <C-Right> <Esc>:tabnext<CR>
 " map tabclose
 imap <C-q> <Esc>:tabclose<CR>
 nmap <C-q> :tabclose<CR>

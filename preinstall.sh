@@ -5,7 +5,7 @@ os_version(){
 }
 
 sudo apt-get update
-sudo apt-get install build-essential make cmake python-dev exuberant-ctags tmux python-software-properties -y
+sudo apt-get install build-essential make cmake python-dev exuberant-ctags tmux python-software-properties ack-grep -y
 
 echo installing vim 7.4..
 if [ "`os_version`" != "Ubuntu" ]; then

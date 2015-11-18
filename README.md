@@ -90,6 +90,17 @@ With yum:
 sudo yum install ctags-etags
 ```
 
+#### Module ack.vim
+
+The module needs *ack-grep*.
+
+With apt-get:
+
+```bash
+sudo apt-get install ack-grep
+```
+
+
 #### Copy/Paste functionality
 
 To use *Copy/Paste* functionality, Vim should be compiled with support for the +clipboard.
@@ -187,7 +198,7 @@ I recommend reading the docs of these plugins to understand them better!
     - Tag Stack
       - `:[n]po` - Pop `n` items from tag stack (go up).
       - `:[n]ta` - Push `n` items to tag stack (go up).
-
+  - `<c-v>` `select rows` `<shift-i>` `write something` `<esc>` - multiple line editing.
   - Font:
     + `<c-->` (ctrl-w and in same time `-`) - reduce the font.
     + `<c-+>` - increase the font.
@@ -201,6 +212,18 @@ I recommend reading the docs of these plugins to understand them better!
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.
   - select with the mouse and paste with `p`.
+* [**ack.vim**]  Vim plugin for the Perl module / CLI script 'ack'
+  - `?` - a quick summary of these keys, repeat to close
+  - `o` - to open (same as Enter)
+  - `O` - to open and close the quickfix window
+  - `go` - to preview file, open but maintain focus on ack.vim results
+  - `t` - to open in new tab
+  - `T` - to open in new tab without moving to it
+  - `h` - to open in horizontal split
+  - `H` - to open in horizontal split, keeping focus on the results
+  - `v` - to open in vertical split
+  - `g`v - to open in vertical split, keeping focus on the results
+  - `q` - to close the quickfix window
 * [**CmdlineComplete**] complete command-line (: / etc.) from the current file
   - Type /ele and press Ctrl-P. So long as "elephant" is in the buffer, press <c-p> and you will get "ele" completed into "elephant".
 * [**MatchTagAlways**] always highlights the XML/HTML tags that enclose your cursor location.

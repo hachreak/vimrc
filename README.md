@@ -213,6 +213,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `:%!sort -kN` - sort table by column N.
   - select with the mouse and paste with `p`.
 * [**ack.vim**]  Vim plugin for the Perl module / CLI script 'ack'
+  - `:Ack [options] {pattern} [{directories}]` - Search.
   - `?` - a quick summary of these keys, repeat to close
   - `o` - to open (same as Enter)
   - `O` - to open and close the quickfix window
@@ -259,9 +260,13 @@ I recommend reading the docs of these plugins to understand them better!
   - `:MRU <Tab>` - Autocompleting name. Then, `<Enter>` to open in a new window.
   - `:MRU text<C-d>` - Display list names matching "text".
 * [**nerdcommenter**] Vim plugin for intensely orgasmic commenting
-  - `<Leader>cc` - comment line
-  - `[num]<Leader>cc` - comment [num] lines
-  - `<c-c>` (normal mode) - toggle comment
+  - `<Leader>cc` - comment lines.
+  - `<Leader>cl` - Same as `<leader>cc` except that the delimiters are aligned down the left side.
+  - `<Leader>cu` - uncomment lines.
+  - `<Leader>c<space>` - toggle comments.
+  - `<Leader>cy` - Same as `<leader>cc` except that the commented line(s) are yanked first.
+  - `[num]<Leader>cc` - comment [num] lines.
+  - `<c-c>` (normal mode) - toggle comment.
 * [**nerdtree**]
   - :NERDTree - open nerdtree
     - `i` - Open the selected file in a horizontal split window.

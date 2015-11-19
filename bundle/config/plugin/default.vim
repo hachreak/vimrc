@@ -40,12 +40,12 @@ nmap Y y$
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! %!sudo tee > /dev/null %
 " Cut
-vmap <C-x> "+c
+"vmap <C-x> "+c
 " Copy
-vmap <C-c> "+yi
+"vmap <C-c> "+yi
 " Paste
-imap <C-v> <ESC>"+pa
-vmap <C-v> c<ESC>"+p
+"imap <C-v> <ESC>"+pa
+"vmap <C-v> c<ESC>"+p
 " Use the mouse to navigate and resize panes
 set ttyfast
 set ttymouse=xterm2

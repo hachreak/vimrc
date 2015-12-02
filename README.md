@@ -365,3 +365,5 @@ I recommend reading the docs of these plugins to understand them better!
   - `v` - Start to work on multiple selections.
 * [**vim-pathogen**] It makes it super easy to install plugins.
 * [**vim-phpqa**] PHP QA tools for Vim
+* [**vim-ref**] Integrated reference viewer.
+  - `K` - Open documentation for the method, class, ...

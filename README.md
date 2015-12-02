@@ -316,6 +316,17 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-erlang-compiler**] Erlang syntax checking and compiler plugin for Vim.
 * [**vim-erlang-omnicomplete**] Erlang autocomplete plugin which gives Erlang support to the i_CTRL-X_CTRL-O keystroke.
 * [**vim-erlang-runtime**] Erlang syntax and indentation built into Vim.
+* [**vim-erlang-skeletons**] - Erlang generic templates for vim.
+  - Templates available:
+    - `:ErlServer` - Loads gen_server template into current buffer.
+    - `:ErlFsm` - Loads gen_fsm template into current buffer.
+    - `:ErlSupervisor` - Loads supervisor template into current buffer.
+    - `:ErlEvent` - Loads gen_event template into current buffer.
+    - `:ErlApplication` -  Loads application template into current buffer.
+    - `:ErlTemplate [arg]` -  Loads [arg] template into current buffer.
+  - Variable configuration: in your `.vimrc` put
+    - `let g:erl_author="My Name"` default: `whoami`
+    - `let g:erl_company="My Company"` default: `g:erl_author`
 * [**vim-erlang-spec**] Generate specifications for your Erlang functions.
   - `:ErlangSpec` - From inside the function, this command will produce specification for it. It won't fill in the argument types for you, though.
 * [**vim-erlang-tags**] Erlang ctags-file generator plugin which makes Vim able to jump to definitions of functions, records, etc. by using the CTRL-], :tags, and other commands.

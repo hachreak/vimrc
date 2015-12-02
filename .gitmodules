@@ -115,3 +115,6 @@
 [submodule "bundle/vim-erlang-spec"]
 	path = bundle/vim-erlang-spec
 	url = https://github.com/akalyaev/vim-erlang-spec.git
+[submodule "bundle/vim-erlang-skeletons"]
+	path = bundle/vim-erlang-skeletons
+	url = https://github.com/vim-erlang/vim-erlang-skeletons.git

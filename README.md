@@ -313,6 +313,10 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [** vim-expand-region**] allows you to visually select increasingly larger regions of text.
   - Press `+` to expand the visual selection and `_` to shrink it (*not use keypad*).
+* [**vim-erlang-runtime**] Erlang syntax and indentation built into Vim.
+* [**vim-erlang-compiler**] Erlang syntax checking and compiler plugin for Vim.
+* [**vim-erlang-omnicomplete**] Erlang autocomplete plugin which gives Erlang support to the i_CTRL-X_CTRL-O keystroke.
+* [**vim-erlang-tags**] Erlang ctags-file generator plugin which makes Vim able to jump to definitions of functions, records, etc. by using the CTRL-], :tags, and other commands.
 * [**Vim-fugitive**] Git wrapper
   - `:Gbrowse` - To open the current file on GitHub, with optional line range (try it in visual mode!)
   - `:Ggrep` - To search the work tree (or any arbitrary commit) with git grep.

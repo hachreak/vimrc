@@ -314,6 +314,8 @@ I recommend reading the docs of these plugins to understand them better!
 * [** vim-expand-region**] allows you to visually select increasingly larger regions of text.
   - Press `+` to expand the visual selection and `_` to shrink it (*not use keypad*).
 * [**vim-erlang-compiler**] Erlang syntax checking and compiler plugin for Vim.
+  - `:lopen` - see list of errors, warnings.
+  - `:lnext` - move cursor to the next error, warning.
 * [**vim-erlang-omnicomplete**] Erlang autocomplete plugin which gives Erlang support to the i_CTRL-X_CTRL-O keystroke.
 * [**vim-erlang-runtime**] Erlang syntax and indentation built into Vim.
 * [**vim-erlang-skeletons**] - Erlang generic templates for vim.

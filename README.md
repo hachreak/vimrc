@@ -138,13 +138,13 @@ pip install isort
 Add submodule or plugins, in your `repos` directory:
 
 ```bash
-  laptop> git submodule add https://github.com/username/*[plugin]*.git bundle/*[plugin]*
+  laptop> git submodule add https://github.com/username/[plugin].git bundle/[plugin]
 ```
 
 Now, you can add specific configuration of the module here:
 
 ```bash
-  laptop> vim bundle/config/plugin/*[plugin]*.vim
+  laptop> vim bundle/config/plugin/[plugin].vim
 ```
 
 ## Manually update all submodules
@@ -334,6 +334,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-isort**] Vim plugin to sort python imports using isort
   - `:Isort` or `<c-i>` - sort python import
 * [**vim-javascript**] Vastly improved Javascript indentation and syntax support in Vim.
+* [**vim-jinja**] Jinja templates support for Vim.
 * [**vim-move**] Plugin to move lines and selections up and down.
   - `<C-Up>` - (visual mode) move the rows up.
   - `<C-Down>` - (visual mode) mode the rows down.

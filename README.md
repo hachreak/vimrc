@@ -329,7 +329,9 @@ I recommend reading the docs of these plugins to understand them better!
     - `let g:erl_company="My Company"` default: `g:erl_author`
 * [**vim-erlang-spec**] Generate specifications for your Erlang functions.
   - `:ErlangSpec` - From inside the function, this command will produce specification for it. It won't fill in the argument types for you, though.
-* [**vim-erlang-tags**] Erlang ctags-file generator plugin which makes Vim able to jump to definitions of functions, records, etc. by using the CTRL-], :tags, and other commands.
+* [**vim-erlang-tags**] Erlang ctags-file generator plugin which makes Vim able to jump to definitions of functions, records, etc.
+  - `:ErlangTags` - Generate the tags.
+  - `<c-]>`: jump to the definition of the function/record/macro under the cursor.
 * [**Vim-fugitive**] Git wrapper
   - `:Gbrowse` - To open the current file on GitHub, with optional line range (try it in visual mode!)
   - `:Ggrep` - To search the work tree (or any arbitrary commit) with git grep.

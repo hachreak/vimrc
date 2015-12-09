@@ -37,9 +37,6 @@
 [submodule "vim-phpqa"]
 	path = bundle/vim-phpqa
 	url = https://github.com/joonty/vim-phpqa.git
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
@@ -124,3 +121,6 @@
 [submodule "bundle/ctrlp-modified.vim"]
 	path = bundle/ctrlp-modified.vim
 	url = https://github.com/jasoncodes/ctrlp-modified.vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

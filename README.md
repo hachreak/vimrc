@@ -240,6 +240,9 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-d>`- to switch to filename search instead of full path
 * [**ctrlp-funky**] It simply navigates and jumps to function definitions.
   - `:CtrlPFunky` or `<c-f>` - Go through the list of functions in the file
+* [**ctrlp-modified.vim**] Easily open locally modified files in your git-versioned projects.
+  - `:CtrlPModified` - shows all files which have been modified since your last commit.
+  - `:CtrlPBranch` - shows all files modified on your current branch.
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
   - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y` + `,`.

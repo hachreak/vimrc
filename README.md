@@ -239,6 +239,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `<c-p>`, filename:25 - to open file at line 25
   - `<c-d>`- to switch to filename search instead of full path
 * [**ctrlp-funky**] It simply navigates and jumps to function definitions.
+  - `:CtrlPFunky` or `<c-f>` - Go through the list of functions in the file
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
   - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y` + `,`.

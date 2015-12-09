@@ -147,6 +147,14 @@ Now, you can add specific configuration of the module here:
   laptop> vim bundle/config/plugin/[plugin].vim
 ```
 
+## Upgrade submodules
+
+If you want to upgrade to latest version all submodules:
+
+```bash
+git submodule update --remote --checkout
+```
+
 ## Manually update all submodules
 
 ```bash

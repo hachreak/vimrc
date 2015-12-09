@@ -246,8 +246,6 @@ I recommend reading the docs of these plugins to understand them better!
 * [**delimitMate**] This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 * [**emmet-vim**] Vim plug-in which provides support for expanding abbreviations similar to emmet.
   - Type abbreviation as `'div>p#foo$*3>a'` and type `Ctrl-y` + `,`.
-* [**GoldenView.Vim**] Always have a nice view for vim split windows!
-  - `:ToggleGoldenViewAutoResize` - To toggle the auto resize.
 * [**gundo.vim**] Graph your Vim undo tree in style.
   - `<Leader>u` - Toggle gundo interface.
   - `<CR>` on a state - it will revert the contents.

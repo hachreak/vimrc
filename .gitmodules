@@ -49,9 +49,6 @@
 [submodule "bundle/nerdtree-git-plugin"]
 	path = bundle/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
-[submodule "bundle/GoldenView.Vim"]
-	path = bundle/GoldenView.Vim
-	url = https://github.com/zhaocai/GoldenView.Vim.git
 [submodule "bundle/vim-expand-region"]
 	path = bundle/vim-expand-region
 	url = https://github.com/terryma/vim-expand-region.git

@@ -319,6 +319,9 @@ I recommend reading the docs of these plugins to understand them better!
   - `:ScreenSend` - Send the visual selection or the entire buffer contents to the running gnu.
   - `IPython` - Start ipython on a shell.
   - `<c-b>[` - Scroll the tmux/screen window.
+* [**sparkup**] A parser for a condensed HTML format.
+ - E.g. `#header > h1` + `<c-e>`.
+ - `<C-n>` - will cycle through empty elements.
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
 * [**vim-airline**] lean & mean status/tabline for vim that's light as air

@@ -216,6 +216,22 @@ I recommend reading the docs of these plugins to understand them better!
     + `:only` - close all the windows apart the current one.
     + `<c-h>`, `<c-j>`, `<c-k>`, `<c-l>` - to move from a window to another one.
     + `<s-up>`, `<s-down>`, `<s-left>`, `<s-right>` - to resize current window.
+  - Xml/Html tags
+    + `d` or `y` or `v` + `at` - Delete/Copy/Select a pair of XML/HTML tags
+    + `d` or `y` or `v` + `it` - Delete/Copy/Select the content of the XML/HTML tags
+  - Macro:
+    + Register a macro and execute:
+      1. `qx` - start recording to register x
+      2. ...  - make actions
+      3. `q` - stop recording
+      4. `@x` - playback to see if it works correctly
+      5. `999@x` - repeat 999 times to complete the job
+    + Recursive macro (repeat until the end-of-file):
+      1. `qx` - start recording to register x
+      2. ... - make actions
+      3. `@x` - execute recursively the macro
+      4. `q` - stop recording
+      5. `@x` - playback to see if it works correctly
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.

@@ -232,6 +232,8 @@ I recommend reading the docs of these plugins to understand them better!
       3. `@x` - execute recursively the macro
       4. `q` - stop recording
       5. `@x` - playback to see if it works correctly
+  - Json
+    + `:%!python -m json.tool` - Formatting json data.
 * [**tricks**]
   - `:%!column -t` - formatting a table of values.
   - `:%!sort -kN` - sort table by column N.

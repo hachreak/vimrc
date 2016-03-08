@@ -403,3 +403,9 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-phpqa**] PHP QA tools for Vim
 * [**vim-ref**] Integrated reference viewer.
   - `K` - Open documentation for the method, class, ...
+* [**vim-surround**] quoting/parenthesizing made simple.
+  - `ds'` - remove the delimiter (e.g. from `'hello'` to `hello`)
+  - `cd'""` - replace a delimiter with another one (e.g. from `'hello'` to `"hello"`)
+  - `v` + select text + `S[` - add a delimiter `[ ]`
+  - `v` + select text + `S<p class="hello">` - add a delimiter `<p>`. e.g. `<p class="hello">fuuu</p>`
+  - If you use `[`, it adds delimiter with a space. If you add `]`, it adds delimiter without space`]`

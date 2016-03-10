@@ -337,6 +337,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `:ScreenSend` - Send the visual selection or the entire buffer contents to the running gnu.
   - `IPython` - Start ipython on a shell.
   - `<c-b>[` - Scroll the tmux/screen window.
+* [**scss-syntax.vim**] Vim syntax file for scss (Sassy CSS).
 * [**sparkup**] A parser for a condensed HTML format.
  - E.g. `#header > h1` + `<c-e>`.
  - `<C-n>` - will cycle through empty elements.

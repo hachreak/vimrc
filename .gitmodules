@@ -1,138 +1,184 @@
 [submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
+  path = bundle/ctrlp.vim
+  url = https://github.com/ctrlpvim/ctrlp.vim.git
+  ignore = dirty
 [submodule "bundle/delimitMate"]
-	path = bundle/delimitMate
-	url = https://github.com/Raimondi/delimitMate.git
+  path = bundle/delimitMate
+  url = https://github.com/Raimondi/delimitMate.git
+  ignore = dirty
 [submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = https://github.com/klen/python-mode.git
+  path = bundle/python-mode
+  url = https://github.com/klen/python-mode.git
+  ignore = dirty
 [submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+  path = bundle/vim-pathogen
+  url = https://github.com/tpope/vim-pathogen.git
+  ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
+  path = bundle/vim-colors-solarized
+  url = https://github.com/altercation/vim-colors-solarized.git
+  ignore = dirty
 [submodule "bundle/emmet-vim"]
-	path = bundle/emmet-vim
-	url = https://github.com/mattn/emmet-vim.git
+  path = bundle/emmet-vim
+  url = https://github.com/mattn/emmet-vim.git
+  ignore = dirty
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+  path = bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
+  ignore = dirty
 [submodule "bundle/CmdlineComplete"]
-	path = bundle/CmdlineComplete
-	url = https://github.com/vim-scripts/CmdlineComplete.git
+  path = bundle/CmdlineComplete
+  url = https://github.com/vim-scripts/CmdlineComplete.git
+  ignore = dirty
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
+  path = bundle/nerdcommenter
+  url = https://github.com/scrooloose/nerdcommenter.git
+  ignore = dirty
 [submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
+  path = bundle/tagbar
+  url = https://github.com/majutsushi/tagbar
+  ignore = dirty
 [submodule "bundle/mru"]
-	path = bundle/mru
-	url = https://github.com/yegappan/mru.git
+  path = bundle/mru
+  url = https://github.com/yegappan/mru.git
+  ignore = dirty
 [submodule "bundle/gundo.vim"]
-	path = bundle/gundo.vim
-	url = https://github.com/sjl/gundo.vim.git
+  path = bundle/gundo.vim
+  url = https://github.com/sjl/gundo.vim.git
+  ignore = dirty
 [submodule "vim-phpqa"]
-	path = bundle/vim-phpqa
-	url = https://github.com/joonty/vim-phpqa.git
+  path = bundle/vim-phpqa
+  url = https://github.com/joonty/vim-phpqa.git
+  ignore = dirty
 [submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
+  path = bundle/vim-gitgutter
+  url = https://github.com/airblade/vim-gitgutter.git
+  ignore = dirty
 [submodule "bundle/MatchTagAlways"]
-	path = bundle/MatchTagAlways
-	url = https://github.com/Valloric/MatchTagAlways.git
+  path = bundle/MatchTagAlways
+  url = https://github.com/Valloric/MatchTagAlways.git
+  ignore = dirty
 [submodule "bundle/nerdtree-git-plugin"]
-	path = bundle/nerdtree-git-plugin
-	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+  path = bundle/nerdtree-git-plugin
+  url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+  ignore = dirty
 [submodule "bundle/vim-expand-region"]
-	path = bundle/vim-expand-region
-	url = https://github.com/terryma/vim-expand-region.git
+  path = bundle/vim-expand-region
+  url = https://github.com/terryma/vim-expand-region.git
+  ignore = dirty
 [submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
+  path = bundle/vim-multiple-cursors
+  url = https://github.com/terryma/vim-multiple-cursors.git
+  ignore = dirty
 [submodule "bundle/vim-move"]
-	path = bundle/vim-move
-	url = https://github.com/matze/vim-move
+  path = bundle/vim-move
+  url = https://github.com/matze/vim-move
+  ignore = dirty
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/bling/vim-airline.git
+  path = bundle/vim-airline
+  url = https://github.com/bling/vim-airline.git
+  ignore = dirty
 [submodule "bundle/Vim-fugitive"]
-	path = bundle/Vim-fugitive
-	url = https://github.com/tpope/Vim-fugitive
+  path = bundle/Vim-fugitive
+  url = https://github.com/tpope/Vim-fugitive
+  ignore = dirty
 [submodule "bundle/screen"]
-	path = bundle/screen
-	url = https://github.com/ervandew/screen.git
+  path = bundle/screen
+  url = https://github.com/ervandew/screen.git
+  ignore = dirty
 [submodule "ctrlp-funky"]
-	path = bundle/ctrlp-funky
-	url = https://github.com/tacahiroy/ctrlp-funky.git
+  path = bundle/ctrlp-funky
+  url = https://github.com/tacahiroy/ctrlp-funky.git
+  ignore = dirty
 [submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
+  path = bundle/vim-javascript
+  url = https://github.com/pangloss/vim-javascript.git
+  ignore = dirty
 [submodule "bundle/agit.vim"]
-	path = bundle/agit.vim
-	url = https://github.com/cohama/agit.vim.git
+  path = bundle/agit.vim
+  url = https://github.com/cohama/agit.vim.git
+  ignore = dirty
 [submodule "bundle/open-browser.vim"]
-	path = bundle/open-browser.vim
-	url = https://github.com/tyru/open-browser.vim.git
+  path = bundle/open-browser.vim
+  url = https://github.com/tyru/open-browser.vim.git
+  ignore = dirty
 [submodule "bundle/open-browser-github.vim"]
-	path = bundle/open-browser-github.vim
-	url = https://github.com/tyru/open-browser-github.vim.git
+  path = bundle/open-browser-github.vim
+  url = https://github.com/tyru/open-browser-github.vim.git
+  ignore = dirty
 [submodule "bundle/nerdtree-execute"]
-	path = bundle/nerdtree-execute
-	url = https://github.com/ivalkeen/nerdtree-execute.git
+  path = bundle/nerdtree-execute
+  url = https://github.com/ivalkeen/nerdtree-execute.git
+  ignore = dirty
 [submodule "bundle/vim-isort"]
-	path = bundle/vim-isort
-	url = https://github.com/fisadev/vim-isort.git
+  path = bundle/vim-isort
+  url = https://github.com/fisadev/vim-isort.git
+  ignore = dirty
 [submodule "bundle/indentLine"]
-	path = bundle/indentLine
-	url = https://github.com/Yggdroot/indentLine.git
+  path = bundle/indentLine
+  url = https://github.com/Yggdroot/indentLine.git
+  ignore = dirty
 [submodule "bundle/ack.vim"]
-	path = bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
+  path = bundle/ack.vim
+  url = https://github.com/mileszs/ack.vim.git
+  ignore = dirty
 [submodule "bundle/vim-jinja"]
-	path = bundle/vim-jinja
-	url = https://github.com/mitsuhiko/vim-jinja.git
+  path = bundle/vim-jinja
+  url = https://github.com/mitsuhiko/vim-jinja.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-runtime"]
-	path = bundle/vim-erlang-runtime
-	url = https://github.com/vim-erlang/vim-erlang-runtime.git
+  path = bundle/vim-erlang-runtime
+  url = https://github.com/vim-erlang/vim-erlang-runtime.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-compiler"]
-	path = bundle/vim-erlang-compiler
-	url = https://github.com/vim-erlang/vim-erlang-compiler.git
+  path = bundle/vim-erlang-compiler
+  url = https://github.com/vim-erlang/vim-erlang-compiler.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-omnicomplete"]
-	path = bundle/vim-erlang-omnicomplete
-	url = https://github.com/vim-erlang/vim-erlang-omnicomplete.git
+  path = bundle/vim-erlang-omnicomplete
+  url = https://github.com/vim-erlang/vim-erlang-omnicomplete.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-tags"]
-	path = bundle/vim-erlang-tags
-	url = https://github.com/vim-erlang/vim-erlang-tags.git
+  path = bundle/vim-erlang-tags
+  url = https://github.com/vim-erlang/vim-erlang-tags.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-spec"]
-	path = bundle/vim-erlang-spec
-	url = https://github.com/akalyaev/vim-erlang-spec.git
+  path = bundle/vim-erlang-spec
+  url = https://github.com/akalyaev/vim-erlang-spec.git
+  ignore = dirty
 [submodule "bundle/vim-erlang-skeletons"]
-	path = bundle/vim-erlang-skeletons
-	url = https://github.com/vim-erlang/vim-erlang-skeletons.git
+  path = bundle/vim-erlang-skeletons
+  url = https://github.com/vim-erlang/vim-erlang-skeletons.git
+  ignore = dirty
 [submodule "bundle/vim-ref"]
-	path = bundle/vim-ref
-	url = https://github.com/thinca/vim-ref.git
+  path = bundle/vim-ref
+  url = https://github.com/thinca/vim-ref.git
+  ignore = dirty
 [submodule "bundle/vim-numbertoggle"]
-	path = bundle/vim-numbertoggle
-	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
+  path = bundle/vim-numbertoggle
+  url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
+  ignore = dirty
 [submodule "bundle/ctrlp-modified.vim"]
-	path = bundle/ctrlp-modified.vim
-	url = https://github.com/jasoncodes/ctrlp-modified.vim.git
+  path = bundle/ctrlp-modified.vim
+  url = https://github.com/jasoncodes/ctrlp-modified.vim.git
+  ignore = dirty
 [submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
+  path = bundle/YouCompleteMe
+  url = https://github.com/Valloric/YouCompleteMe.git
+  ignore = dirty
 [submodule "bundle/sparkup"]
-	path = bundle/sparkup
-	url = https://github.com/rstacruz/sparkup.git
+  path = bundle/sparkup
+  url = https://github.com/rstacruz/sparkup.git
+  ignore = dirty
 [submodule "bundle/vim-dispatch"]
-	path = bundle/vim-dispatch
-	url = https://github.com/tpope/vim-dispatch.git
+  path = bundle/vim-dispatch
+  url = https://github.com/tpope/vim-dispatch.git
+  ignore = dirty
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
+  path = bundle/vim-surround
+  url = https://github.com/tpope/vim-surround.git
+  ignore = dirty
 [submodule "bundle/scss-syntax.vim"]
-	path = bundle/scss-syntax.vim
-	url = https://github.com/cakebaker/scss-syntax.vim.git
+  path = bundle/scss-syntax.vim
+  url = https://github.com/cakebaker/scss-syntax.vim.git
+  ignore = dirty

@@ -161,6 +161,13 @@ git submodule update --remote --checkout
   laptop> git submodule update --remote --rebase --recursive
 ```
 
+Note: after that, if you have some submodules version not aligned (git status
+warning you that some submodules changed):
+
+```bash
+  laptop> git submodule update --init
+```
+
 Plugin list and shortcuts
 -------------------------
 

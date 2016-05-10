@@ -12,7 +12,7 @@ let g:pymode_lint_on_write = 1
 " Automatically check python code
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_sort = ['E', 'C', 'I']
-let g:pymode_lint_ignore = "E266,C901"
+let g:pymode_lint_ignore = "E266,C901,D203"
 let g:pymode_motion = 1
 " Fix PEP8 errors in current buffer automatically
 nmap <Leader>a :PymodeLintAuto<CR>

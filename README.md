@@ -415,6 +415,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [**vim-phpqa**] PHP QA tools for Vim
 * [**vim-ref**] Integrated reference viewer.
   - `K` - Open documentation for the method, class, ...
+* [**vim-snipmate**] snipMate & UltiSnip Snippets.
 * [**vim-surround**] quoting/parenthesizing made simple.
   - `ds'` - remove the delimiter (e.g. from `'hello'` to `hello`)
   - `cd'""` - replace a delimiter with another one (e.g. from `'hello'` to `"hello"`)

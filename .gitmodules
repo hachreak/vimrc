@@ -182,3 +182,7 @@
   path = bundle/scss-syntax.vim
   url = https://github.com/cakebaker/scss-syntax.vim.git
   ignore = dirty
+[submodule "bundle/ultisnips"]
+  path = bundle/ultisnips
+  url = https://github.com/SirVer/ultisnips.git
+  ignore = dirty

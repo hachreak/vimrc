@@ -345,6 +345,10 @@ I recommend reading the docs of these plugins to understand them better!
   - `IPython` - Start ipython on a shell.
   - `<c-b>[` - Scroll the tmux/screen window.
 * [**scss-syntax.vim**] Vim syntax file for scss (Sassy CSS).
+* [**UltiSnips**] The ultimate snippet solution for Vim.
+ - `<c-space>` - Trigger action after snipped code selection.
+ - `<c-j>` - Jump to the next tabstop.
+ - `<c-k>` - Jump to the previous tabstop.
 * [**sparkup**] A parser for a condensed HTML format.
  - E.g. `#header > h1` + `<c-e>`.
  - `<C-n>` - will cycle through empty elements.

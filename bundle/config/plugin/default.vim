@@ -1,3 +1,5 @@
+" Enable syntax highlight
+syntax on
 " Enable indent
 filetype indent plugin on
 " size of a hard tabstop

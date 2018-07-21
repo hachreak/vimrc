@@ -355,7 +355,6 @@ I recommend reading the docs of these plugins to understand them better!
 * [**tagbar**] Vim plugin that displays tags in a window, ordered by scope.
   - `tt` - Enable tagbar
 * [**vim-airline**] lean & mean status/tabline for vim that's light as air
-* [**vim-colors-solarized**] Precision colorscheme for the vim text editor.
 * [**vim-dispatch**] asynchronous build and test dispatcher.
 * [**vim-expand-region**] allows you to visually select increasingly larger regions of text.
   - Press `+` to expand the visual selection and `_` to shrink it (*not use keypad*).

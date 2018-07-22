@@ -182,3 +182,6 @@
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
   ignore = dirty
+[submodule "bundle/vim-syntastic"]
+	path = bundle/vim-syntastic
+	url = https://github.com/vim-syntastic/syntastic.git

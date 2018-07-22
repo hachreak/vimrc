@@ -375,7 +375,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `:Ggrep` - To search the work tree (or any arbitrary commit) with git grep.
   - `:Gmove` - Does a `git mv` on a file and simultaneously renames the buffer.
   - `:Gremove` - Does a `git rm` on a file and simultaneously deletes the buffer.
-  - `:Gblame` - Brings up an interactive vertical split with `git blame` output. Press enter on a line to edit the commit where the line changed, or `o` to open it in a split. When you're done, use ``:Gedit` in the historic buffer to go back to the work tree version.
+  - `:Gblame` - Brings up an interactive vertical split with `git blame` output. Press enter on a line to edit the commit where the line changed, or `o` to open it in a split. When you're done, use `:Gedit` in the historic buffer to go back to the work tree version.
   - resolving merge conflicts with vimdiff
     + `:Gvdiff` - Open 3 split windows.
     + `[c` - Jump to previous hunk.
@@ -412,3 +412,4 @@ I recommend reading the docs of these plugins to understand them better!
   - `v` + select text + `S[` - add a delimiter `[ ]`
   - `v` + select text + `S<p class="hello">` - add a delimiter `<p>`. e.g. `<p class="hello">fuuu</p>`
   - If you use `[`, it adds delimiter with a space. If you add `]`, it adds delimiter without space`]`
+* [vim-syntastic] syntax checking plugin for Vim.

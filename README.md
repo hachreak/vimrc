@@ -328,15 +328,6 @@ I recommend reading the docs of these plugins to understand them better!
   - `:OpenGithubIssue` - Opens current repositories Issue List.
   - `:OpenGithubIssue tyru/open-browser.vim` - Opens a specific repositories Issue list.
   - `:OpenGithubPullReq` - The same of Issue, but this time open pulls page.
-* [**python-mode**] Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
-  - `<Leader>b` - add breakpoint
-  - `K`  - show documentation for current word (selection)
-  - `<c-space>` - for autocompletion
-  - `<c-c>g` - open definition
-  - `[[` - Jump to previous class or function (normal, visual, operator modes)
-  - `]]` - Jump to next class or function (normal, visual, operator modes)
-  - `zz` - Toggle fonding
-  - `<Leader>a` - Fix PEP8 errors in current buffer automatically
 * [**screen**] Simulate a split shell in vim using gnu screen or tmux.
   - `:ScreenShell yourcommand` - Run your command in a shell.
   - `:ScreenShellReopen` - If you've started a shell using `:ScreenShell` or `:ScreenShellVertical` and exit that shell manually (^D, $ exit, etc) without running `:ScreenQuit`, then `:ScreenShellReopen` will re-open that shell again for you.

@@ -2,3 +2,6 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 ""active the pathogen plugin
 call pathogen#infect()
+
+" byobu
+set background=dark

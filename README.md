@@ -413,3 +413,7 @@ I recommend reading the docs of these plugins to understand them better!
   - `v` + select text + `S<p class="hello">` - add a delimiter `<p>`. e.g. `<p class="hello">fuuu</p>`
   - If you use `[`, it adds delimiter with a space. If you add `]`, it adds delimiter without space`]`
 * [vim-syntastic] syntax checking plugin for Vim.
+* [ale]
+  - `:ALEGoToDefinition` - jump to the definition of words under your cursor
+  - `<C-space>` for autocompletition
+  - `:ALEFix` - automatically fix code (isort, black)
